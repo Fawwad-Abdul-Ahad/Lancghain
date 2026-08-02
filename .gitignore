@@ -1,0 +1,22 @@
+# Environment variables (API Keys leak hone se bachane ke liye)
+.env
+.env.local
+*.env
+
+# Virtual Environments (Badi binary files upload karne se bachne ke liye)
+venv/
+.venv/
+env/
+
+# Python Cache & Compiled Files
+__pycache__/
+*.py[cod]
+
+# IDE / Editor Settings
+.vscode/
+.idea/
+
+# OS-generated files
+.DS_Store
+Thumbs.db".env" 
+"venv/" 
