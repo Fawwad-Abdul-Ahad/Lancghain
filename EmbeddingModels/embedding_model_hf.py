@@ -4,9 +4,9 @@ from dotenv import load_dotenv
 load_dotenv()
 
 embeddings = HuggingFaceEndpointEmbeddings(
-    model="sentence-transformers/all-MiniLM-L6-v2"
+    model="sentence-transformers/all-MiniLM-L6-v2",
 )
 
 result = embeddings.embed_query("my name is fawwad")
-
+# orint results
 print(result)
