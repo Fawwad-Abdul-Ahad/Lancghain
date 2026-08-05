@@ -15,7 +15,6 @@ docs = [
     "Vector databases store embeddings for semantic search.",
     "FAISS is a popular vector database for similarity search.",
     "Chroma is another vector database used in RAG systems.",
-    "Sentence transformers generate high-quality text embeddings.",
     "Python is the most popular language for AI development.",
     "PyTorch is widely used to train deep learning models.",
     "TensorFlow is another framework for machine learning.",
