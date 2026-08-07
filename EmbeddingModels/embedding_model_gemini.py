@@ -20,8 +20,6 @@ docs = [
     "TensorFlow is another framework for machine learning.",
     "Hugging Face provides open-source AI models and datasets.",
     "Ollama allows you to run large language models locally.",
-    "Prompt engineering improves the quality of AI responses.",
-    "Fine-tuning adapts a pre-trained model to a specific task.",
     "Semantic search finds documents based on meaning instead of keywords."
 ]
 embedding = GoogleGenerativeAIEmbeddings(model="gemini-embedding-001", output_dimensionality=200)
