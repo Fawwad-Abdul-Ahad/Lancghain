@@ -7,8 +7,6 @@ from langchain_core.prompts import ChatPromptTemplate
 load_dotenv()
 
 api_key = os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY")
-# chatprompt use
-
 history_message = [
     SystemMessage(content = "You are a helpful AI Assistant")
 ]
